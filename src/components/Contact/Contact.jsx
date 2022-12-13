@@ -1,10 +1,10 @@
 import React from 'react';
-import './Home.css';
+import './Contact.css';
 
 export default function Home() {
   return (
-    <div className='home-container'>
-        Home
+    <div className='contact-container'>
+        
     </div>
   )
 }
