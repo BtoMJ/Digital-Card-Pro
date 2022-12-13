@@ -126,7 +126,7 @@
         /* background-color: #F8B400; */
     }
 
-    .share-container .share button{
+    .share-container .share .button{
         padding: 5px 10px;
         display: flex;
         flex-direction: row;

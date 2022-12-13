@@ -20,18 +20,24 @@ export default function Nav() {
 
       <div className='share-container'>
         <div className='share'>
-          <button href='#' onClick={nativeShare}>
+          <div className='button' onClick={nativeShare}>
             <FaShareAlt className='icon'/>
             <p>compartir</p>
-          </button>
+          </div>
         </div>
+
         <div className='share'>
-          <FaSave  className='icon'/>
-          <p>guardar</p>
+          <div className='button' onClick={nativeShare}>
+            <FaSave  className='icon'/>
+            <p>guardar</p>
+          </div>
         </div>
+
         <div className='share'>
-          <FaQrcode  className='icon'/>
-          <p>código QR</p>
+          <div className='button' onClick={nativeShare}>
+            <FaQrcode  className='icon'/>
+            <p>código QR</p>
+          </div>
         </div>
       </div>
 
