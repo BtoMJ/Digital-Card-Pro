@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Prueba;Daniel;
+FN:Daniel Prueba
+TITLE:Desarrollo Web
+EMAIL:danny_mj17@hotmail.com
+ORG:Daniel Mena
+TEL; TYPE=WORK:4761037311
+URL;type=pref:https://portafolio-2021.vercel.app/
+URL:https://www.linkedin.com/in/daniel-full-stack/
+URL:https://github.com/BtoMJ
+END:VCARD

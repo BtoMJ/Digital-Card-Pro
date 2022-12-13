@@ -27,18 +27,18 @@ export default function Nav() {
         </div>
 
         <div className='share'>
-          <div className='button' onClick={nativeShare}>
+          <a href='../../assets/Alberto_Mena_Jaime.vcf' download='Alberto_Mena_Jaime.vcf'>
             <FaSave  className='icon'/>
             <p>guardar</p>
-          </div>
+          </a>
         </div>
 
-        <div className='share'>
+        {/* <div className='share'>
           <div className='button' onClick={nativeShare}>
             <FaQrcode  className='icon'/>
             <p>código QR</p>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className='background'>
