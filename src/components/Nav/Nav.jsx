@@ -7,14 +7,23 @@ import { FaQrcode } from "react-icons/fa";
 
 import './Nav.css';
 
+var nativeShare = function() {
+  if (navigator.share) {
+    navigator.share({ title: "Tarjeta Digital", text: "Comparte tu tarjeta", url: "https://digital-card-pro.vercel.app/" })
+  }
+  return false;
+}
+
 export default function Nav() {
   return (
     <div className='nav-container'>
 
       <div className='share-container'>
         <div className='share'>
-          <FaShareAlt className='icon'/>
-          <p>compartir</p>
+          <button href='#' onClick={nativeShare}>
+            <FaShareAlt className='icon'/>
+            <p>compartir</p>
+          </button>
         </div>
         <div className='share'>
           <FaSave  className='icon'/>
