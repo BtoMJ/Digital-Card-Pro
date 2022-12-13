@@ -27,7 +27,7 @@ export default function Nav() {
         </div>
 
         <div className='share'>
-          <a href='../../assets/Alberto_Mena_Jaime.vcf' download='Alberto_Mena_Jaime.vcf'>
+          <a href='../../assets/Alberto_Mena_Jaime.vcf' download>
             <FaSave  className='icon'/>
             <p>guardar</p>
           </a>
